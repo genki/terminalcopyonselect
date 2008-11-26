@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TerminalColoreopard' target in the 'TerminalColoreopard' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
