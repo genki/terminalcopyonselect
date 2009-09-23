@@ -19,7 +19,7 @@
 		FBA5883D0EDBD5D200974FC1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "/Users/takiuchi/Library/Application Support/SIMBL/Plugins";
+			dstPath = "~/Library/Application Support/SIMBL/Plugins";
 			dstSubfolderSpec = 0;
 			files = (
 				FBA5884D0EDBD6F400974FC1 /* TerminalCopyOnSelect.bundle in CopyFiles */,
@@ -249,10 +249,8 @@
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";

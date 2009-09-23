@@ -2,7 +2,7 @@
 #import "TerminalCopyOnSelect.h"
 #import "TCOSPreferences.h"
 
-@implementation TTView (TerminalCopyOnSelect)
+@implementation NSObject (TerminalCopyOnSelect)
 - (void)
 myMouseUp:(NSEvent *)theEvent
 {
