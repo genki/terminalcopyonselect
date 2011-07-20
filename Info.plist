@@ -28,7 +28,7 @@
 			<key>BundleIdentifier</key>
 			<string>com.apple.Terminal</string>
 			<key>MaxBundleVersion</key>
-			<string>273</string>
+			<string>297</string>
 			<key>MinBundleVersion</key>
 			<string>237</string>
 		</dict>
